@@ -14,7 +14,7 @@
   border-radius:6px;
 }
 
-@media (min-width: 574px) {
+@media (min-width: 774px) {
   .index-body{
     background-image: url("images/lightscorg.jpg");
   }
