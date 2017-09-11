@@ -1,13 +1,12 @@
 .index-body{
-  background-image: url("images/lightscorg.jpg");
+  background-image: url("images/CorgiOne.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.index-body{
-  background-image: url("images/lightscorg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+.backing{
+  background: rgba(93, 95, 85, 0.50);
+  border-radius:6px;
 }
 
 .backing-always{
@@ -15,13 +14,14 @@
   border-radius:6px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 574px) {
   .index-body{
-    background-image: url("images/CorgiOne.jpg");
+    background-image: url("images/lightscorg.jpg");
   }
+}
 
-  .backing{
-    background: rgba(93, 95, 85, 0.50);
-    border-radius:6px;
+@media(min-width: 1030px){
+  .index-body{
+    background-image: url("images/bgcorgi.jpg");
   }
 }
