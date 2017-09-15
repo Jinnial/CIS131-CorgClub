@@ -5,8 +5,17 @@
   background-color: white;
   background-size: contain;
   background-size: 40%;
+  color: black;
 }
-
+.apply-body{
+	background-image: url("images/appbackground.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: white;
+	background-size: contain;
+	background-size: 30%;
+	color: black;
+}
 .inner-cover{
   color: black;
 }
