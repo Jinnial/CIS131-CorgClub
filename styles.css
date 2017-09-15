@@ -29,13 +29,18 @@
   border-radius:6px;
 }*/
 
-/*@media (min-width: 774px) {
-  .index-body{
-    background-image: url("images/lightscorg.jpg");
-  }
+@media (max-width: 986px) {
+	.form-row{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.form-group{
+		padding-right:40px;
+		padding-left: 40px;
+	}
 }
 
-@media(min-width: 1030px){
+/*@media(min-width: 1030px){
   .index-body{
     background-image: url("images/bgcorgi.jpg");
   }
