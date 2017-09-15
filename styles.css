@@ -1,11 +1,11 @@
 .index-body{
-  background-image: url("images/newBackground.png");
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-color: white;
-  background-size: contain;
-  background-size: 40%;
-  color: black;
+	background-image: url("images/newBackground.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: white;
+	background-size: contain;
+	background-size: 40%;
+	color: black;
 }
 .apply-body{
 	background-image: url("images/appbackground.png");
@@ -20,28 +20,36 @@
   color: black;
 }
 /*.backing{
-  background: rgba(93, 95, 85, 0.50);
-  border-radius:6px;
+	background: rgba(93, 95, 85, 0.50);
+	border-radius:6px;
 }
 
 .backing-always{
-  background: rgba(93, 95, 85, 0.50);
-  border-radius:6px;
+	background: rgba(93, 95, 85, 0.50);
+	border-radius:6px;
 }*/
+.form-row{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.form-group{
+	padding-right:30px;
+	padding-left: 30px;
+	
+}
+.card{
+	background:transparent;
+}
 
+	
 @media (max-width: 990px) {
-	.form-row{
-		padding-right: 40px;
-		padding-left: 40px;
-	}
-	.form-group{
-		padding-right:40px;
-		padding-left: 40px;
+	.footer{
+		background-color: white;
 	}
 }
 
 /*@media(min-width: 1030px){
-  .index-body{
-    background-image: url("images/bgcorgi.jpg");
-  }
+	.index-body{
+		background-image: url("images/bgcorgi.jpg");
+	}
 }*/
