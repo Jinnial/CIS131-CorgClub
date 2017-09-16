@@ -1,0 +1,54 @@
+/*css sheet for the corgi adoptees page
+Made by Jordan Gilmore*/
+
+/*Colors:
+Coffee: rgb(110,78,55)*/
+body{
+    background-image: url("images/icon.png");
+    background-size: 5% 7%, 2em;
+}
+.row{
+  margin: 70px auto;
+  background-color: white;
+}
+
+#corgLeft1 {
+  float:left;
+  text-align: right;
+}
+#topRow{
+  background-color: rgb(255,239,202);
+  border-radius: 20px;
+  box-shadow: 5px 10px 5px black;
+}
+#corgRight1{
+  float:right;
+  text-align: right;
+}
+#midRow{
+  color: white;
+  background-color: rgb(255,160,21);
+  border-radius: 20px;
+  box-shadow: 5px 10px 5px black;
+}
+#corgLeft2{
+  float:left
+}
+#bottomRow{
+
+  background-color: rgb(255,239,202);
+  border-radius: 20px;
+  box-shadow: 5px 10px 5px;
+}
+
+.alert {
+  clear: both;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 10px 5px;
+}
+
+img {
+    margin: 10px;
+}
