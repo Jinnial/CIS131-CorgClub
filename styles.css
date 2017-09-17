@@ -36,13 +36,6 @@
 	background:transparent;
 }
 
-
-@media (max-width: 990px) {
-	.footer{
-		background-color: white;
-	}
-}
-
 /*@media(min-width: 1030px){
 	.index-body{
 		background-image: url("images/bgcorgi.jpg");
