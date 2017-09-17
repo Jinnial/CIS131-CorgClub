@@ -1,22 +1,17 @@
 .index-body{
 	background-image: url("images/newBackground.png");
-	background-repeat: no-repeat;
-	background-position: bottom left;
-	background-color: white;
-	background-size: contain;
-	background-size: 40%;
-	color: black;
 }
 .apply-body{
 	background-image: url("images/appbackground.png");
+}
+.index-body, .apply-body{
 	background-repeat: no-repeat;
 	background-position: bottom left;
 	background-color: white;
 	background-size: contain;
 	background-size: 30%;
-	color: black;
 }
-.inner-cover{
+.inner-cover, .index-body, .apply-body{
   color: black;
 }
 /*.backing{
@@ -35,17 +30,10 @@
 .form-group{
 	padding-right:30px;
 	padding-left: 30px;
-	
+
 }
 .card{
 	background:transparent;
-}
-
-	
-@media (max-width: 990px) {
-	.footer{
-		background-color: white;
-	}
 }
 
 /*@media(min-width: 1030px){
