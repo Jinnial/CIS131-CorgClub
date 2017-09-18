@@ -4,8 +4,7 @@ Made by Jordan Gilmore*/
 /*Colors:
 Coffee: rgb(110,78,55)*/
 body{
-    background-image: url("images/icon.png");
-    background-size: 5% 7%, 2em;
+
 }
 .row{
   margin: 70px auto;
@@ -26,8 +25,7 @@ body{
   text-align: right;
 }
 #midRow{
-  color: white;
-  background-color: rgb(255,160,21);
+  background-color: rgb(255,239,202);
   border-radius: 20px;
   box-shadow: 5px 10px 5px black;
 }
