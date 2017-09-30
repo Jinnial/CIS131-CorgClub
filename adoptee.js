@@ -16,7 +16,7 @@ var theBottomSwitcher = 1;
 function festCorg()
 {
   var newSrc;
-  newSrc = "images/corgGif.gif";
+  newSrc = "images/christCorg.gif";
   document.getElementById('festGif').src = newSrc;
 }
 function toggleTopCorgi()
