@@ -5,6 +5,11 @@
 	background-image: url("images/appbackground.png");
 }
 
+.events-body{
+	background-image: url("images/corg_run.jpg");
+	color: black;
+}
+
 .index-body, .apply-body, .events-body{
 	background-repeat: no-repeat;
 	background-position: bottom left;
@@ -37,18 +42,19 @@
 	background:transparent;
 }
 
-.body-container {
-  /* Normal .container syles*/
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-  /* ----------------------*/
-  margin-top: 100px;
+.event-card{
+	border: none;
+	box-shadow:  2px 2px 2px  rgba(128,128,128, .5);
 }
 
-/* Normal Container Fluid styles*/
+.card-image-top{
+	box-shadow:  2px 2px 2px  #000000;
+}
+.card-footer{
+	display: inline;
+}
+
+
 @media (min-width: 568px) {
   .container {
     width: 550px;
