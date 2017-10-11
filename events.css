@@ -6,3 +6,31 @@
 /*.col-sm-4 {
   padding: 2px;
 }*/
+
+.body-container {
+  /* Normal .container syles*/
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  /* ----------------------*/
+  margin-top: 100px;
+}
+
+/* Normal Container Fluid styles*/
+@media (min-width: 568px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
